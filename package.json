@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "serve": "vite preview",
+  "postinstall": "chmod +x ./node_modules/.bin/vite"
+},
   "dependencies": {
     "axios": "^1.9.0",
     "react": "^19.1.0",
